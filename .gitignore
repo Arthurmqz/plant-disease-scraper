@@ -1,0 +1,56 @@
+# Ambiente virtual
+venv/
+env/
+ENV/
+
+# Arquivos Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribuição / empacotamento
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Arquivos de dataset (opcional - remova se quiser armazenar o dataset no GitHub)
+dataset/images/
+dataset/descriptions/
+
+# Metadados podem ser versionados (remova esta linha se quiser incluir)
+# dataset/metadata.csv
+
+# Logs e bancos de dados locais
+*.log
+*.sqlite
+*.db
+
+# Arquivos de ambiente e configuração
+.env
+.venv
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos de IDE e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
